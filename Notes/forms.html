@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Document</title>
+</head> 
+
+<body>
+	<form action="#" method="GET">
+		<fieldset>
+			<legend>Contact Details</legend>
+				<label>Email:<br/>
+					<input type="email" name="email"/>
+				</label><br/>
+				<label>Username:<br/>
+					<input type ="text" name="username" maxlength="30" />
+				</label><br/>
+				<label>Password:<br/> 
+					<input type="password" name ="password" maxlength="10"/>
+				</label>
+		</fieldset>
+		<!--Radio buttons-->
+		
+		<p>Please select your favorite genre:
+			<br/>
+			<input type="radio" name="genre" value="rock"/> Rock
+			<input type="radio" name="genre" value="electro swing"/> Electro Swing 
+			<input type="radio" name="genre" value="jazz"/> Jazz
+		</p>
+
+
+				<!--Check box -->
+
+		<p>Select your favorite music service(s):
+			<br/>
+			<input type="checkbox" name="service" value="apple">Apple Music 
+			<input type="checkbox" name="service" value="spotify">Spotify
+			<input type="checkbox" name="service" value="youtube">Youtube Music
+		</p>
+		
+				<!--Drop list -->
+		<p>What device do you listen to music on?
+			<br/>
+			<select name="devices">
+				<option value="phone">Phone</option>
+				<option value="laptop">Laptop</option>
+				<option value="radio">Radio</option>
+			</select>
+		</p>
+		
+		<!--Multiple select box -->
+		<p>OD you play any of the following intruments 
+			<br/>
+			<select name="intruments" size="2" multiple="multiple">
+				<option value="guitar">Guitar</option>
+				<option value="drums">Drums</option>
+				<option value="Trombone">Trombone</option>
+				<option value="Piano">Piano</option>
+			</select>
+		</p>
+		
+		<form action="#" method="POST">
+			<p>Upload your song in MP3 format:
+				<br/>
+				<input type="file" name="user-song"/>
+			</p>
+			<input type="submit" name="Upload"/>
+				<!--text box -->
+
+		<p>Write a comment:
+		<br/>
+		<textarea name="comment" cols="20" rows="4">
+		</textarea>
+		</p>
+	</form>
+</body>
+
+</html>
