@@ -2,64 +2,70 @@
 <html>
 
 <head>
+	<link href="styles/style.css" type="text/css" rel="stylesheet"/>
 	<title>Researchers</title>
 </head>
 
 <body>
-	<form action="#" method="GET">
-		<p>Hello, if you're on this websibe then you're probably looking for me. I'm very busy but if you leave your information and why you're trying to contact me and I'll try to get back to you.</p>
-			<fieldset>
-				<legend>Contact Details</legend>
-					<label>Name:<br/>
-						<input type="text" name="name"/>
-					</label><br/>
-					<label>Email:<br/>
-						<input type ="email" name="email"/>
-					</label><br/>
-					<label>Subject:<br>
-						<input type="text" name="subject"/>
-					</label><br>
-					<label>Message:<br>
-						<input type="text" name="message"/>
-					</label><br>
-				<br>
-				<input type="submit" value="Submit">
-				<br>
-				<br>
-				<input type="reset" value="Reset">
-			</fieldset>
-	</form>
-	
-		<br/>	
-			<fieldset>
-				<legend>Survey Section</legend>
-				<p> Hello this is my portfolio, what you will find here will be video games and audio files I made.</p>
-					<p>How did you find my portfolio?
-					<select name="how">
-					<option value="Google Search">Google Search</option>
-					<option value="Social Media">Social Media</option>
-					<option value="Referral">Referral</option>
-					<option value="Other">Other</option>
-					</select>
-				</p>
-		<p>Please Rate your overall experience on my site:
+	<main>
+		<form action="#" method="GET">
+			<p>Hello, if you're on this websibe then you're probably looking for me. I'm very busy but if you leave your information and why you're trying to contact me and I'll try to get back to you.</p>
+				<fieldset>
+					<legend>Contact Details</legend>
+						<label>Name:<br/>
+							<input type="text" name="name"/>
+						</label><br/>
+						<label>Email:<br/>
+							<input type ="email" name="email"/>
+						</label><br/>
+						<label>Subject:<br>
+							<input type="text" name="subject"/>
+						</label><br>
+						<label>Message:<br>
+							<input type="text" name="message"/>
+						</label><br>
+					<br>
+					<input type="submit" value="Submit">
+					<br>
+					<br>
+					<input type="reset" value="Reset">
+				</fieldset>
+		</form>
+		
+			<br/>	
+				<fieldset>
+					<legend>Survey Section</legend>
+					<p> Hello this is my portfolio, what you will find here will be video games and audio files I made.</p>
+						<p>How did you find my portfolio?
+						<select name="how">
+						<option value="Google Search">Google Search</option>
+						<option value="Social Media">Social Media</option>
+						<option value="Referral">Referral</option>
+						<option value="Other">Other</option>
+						</select>
+					</p>
+			<p>Please Rate your overall experience on my site:
+				<br/>
+				<input type="radio" name="rating" value="1"/> 1
+				<input type="radio" name="rating" value="2"/> 2
+				<input type="radio" name="rating" value="3"/> 3
+				<input type="radio" name="rating" value="4"/> 4
+				<input type="radio" name="rating" value="5"/> 5
+			</p>
+			<p>Write a comment:
 			<br/>
-			<input type="radio" name="rating" value="1"/> 1
-			<input type="radio" name="rating" value="2"/> 2
-			<input type="radio" name="rating" value="3"/> 3
-			<input type="radio" name="rating" value="4"/> 4
-			<input type="radio" name="rating" value="5"/> 5
-		</p>
-		<p>Write a comment:
-		<br/>
-			<textarea name="comment" cols="20" rows="4">
-			</textarea>
-		</p>
-		<input type="submit" value="Submit">
-		<br>
-		<br>
-		<input type="reset" value="Reset">
-		</fieldset>
+				<textarea name="comment" cols="20" rows="4">
+				</textarea>
+			</p>
+			<input type="submit" value="Submit">
+			<br>
+			<br>
+			<input type="reset" value="Reset">
+			</fieldset>
+		</main>
+	<footer>
+		<p>&copy; 2025 Talent Thay</p>
+	</footer>
 </body>
 
 </html>

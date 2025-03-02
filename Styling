@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="withdraw=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="styles/style.css" type="text/css" rel="stylesheet"/>
+</style>
+</head>
+<main>
+
+</main>
+
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Talent Thay</p>
+    </footer>
+</body>
+
+
+</html>
